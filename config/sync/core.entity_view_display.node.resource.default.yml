@@ -1,0 +1,36 @@
+uuid: 5d6f1415-f9f3-47d5-9ed1-e28b4c322464
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.resource.field_summary
+    - field.field.node.resource.field_topic
+    - node.type.resource
+  module:
+    - user
+id: node.resource.default
+targetEntityType: node
+bundle: resource
+mode: default
+content:
+  field_summary:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_topic:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
