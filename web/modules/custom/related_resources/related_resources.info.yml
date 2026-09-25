@@ -1,0 +1,8 @@
+name: Related Resources
+type: module
+description: Displays resources related to the current page's topic.
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - drupal:node
+  - drupal:taxonomy
