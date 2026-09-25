@@ -1,0 +1,20 @@
+uuid: 2c070fb0-1c78-4286-a8f2-dbf49a2d7c2c
+langcode: en
+status: true
+dependencies:
+  module:
+    - related_resources
+  theme:
+    - olivero
+id: olivero_relatedresources
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: related_resources_block
+settings:
+  id: related_resources_block
+  label: 'Related Resources'
+  label_display: visible
+  provider: related_resources
+visibility: {  }
